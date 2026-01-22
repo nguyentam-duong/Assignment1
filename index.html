@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid - Combine Fine Images</title>
+    <!-- google fonts - inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <!-- bootstrap css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- custom stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- header section with navigation -->
+    <!-- HEADER -->
+    <header class="navbar navbar-expand-lg shadow-sm fixed-top custom-header">
+        <div class="container py-2 position-relative d-flex align-items-center justify-content-between">
+
+            <!-- LEFT: Logo -->
+            <a class="navbar-brand d-flex align-items-center fw-bold text-dark" href="#">
+                <img src="img/logo.png" alt="Grid logo" class="me-2" style="width:70px;height:64px;">
+                <span style="font-size:48px;">Grid</span>
+            </a>
+
+            <!-- CENTER: Navigation Links -->
+            <ul class="navbar-nav nav-center">
+                <li class="nav-item"><a class="nav-link text-dark fw-bold" href="#">How it works</a></li>
+                <li class="nav-item"><span class="dot-separator"></span></li>
+                <li class="nav-item"><a class="nav-link purple-link" href="#">Who we are</a></li>
+                <li class="nav-item"><span class="dot-separator"></span></li>
+                <li class="nav-item"><a class="nav-link purple-link" href="#">What we do</a></li>
+                <li class="nav-item"><span class="dot-separator"></span></li>
+                <li class="nav-item"><a class="nav-link purple-link" href="#">Contact us</a></li>
+            </ul>
+
+            <!-- RIGHT: Sign in button -->
+            <a href="#" class="btn btn-purple px-4 py-2 rounded-pill text-white fw-bold ms-auto">Sign In</a>
+        </div>
+    </header>
+    <!-- main content area -->
+    <main>
+
+        <!-- hero section with css grid -->
+        <section class="hero-section py-5">
+            <div class="container">
+                <!-- decorative circles image -->
+                <main class="hero pt-7 pb-6 position-relative overflow-hidden">
+                    <div class="hero-angle"></div>
+                    <div class="dot-pattern"></div>
+
+                    <!-- hero heading -->
+                    <div class="text-center mb-5 position-relative">
+                        <h1 class="display-3 fw-bold mb-3">
+                            Combine <span class="highlight-text">fine</span> images
+                            <span class="bg"></span>
+                        </h1>
+                        <h2 class="display-5 fw-bold text-dark">To represent a product</h2>
+                    </div>
+
+                    <!-- left side description text -->
+<div class="d-flex justify-content-between mb-3 flex-wrap">
+    <div class="col-12 col-md-3 p-0s">
+        <p class="text-secondary">
+            Use mixed grid with imagery, replace with your own photos and descriptions
+        </p>
+    </div>
+
+    <div class="col-12 col-md-3 p-0">
+        <p class="text-secondary">
+            This is multipurpose grid, it fits for portfolio, services or agency web site
+        </p>
+    </div>
+</div>
+
+
+<!-- css grid layout -->
+<div class="grid-container">
+
+    <!-- LEFT BLACK CARD -->
+    <div class="grid-item item-1">
+  <div
+    class="card text-white border-0 rounded-4 overflow-hidden position-relative"
+    style="width: 270px; height: 464px;"
+  >
+    <!-- Background image -->
+    <img
+      src="img/sphere.png"
+      alt="Sphere"
+      class="position-absolute top-0 start-0 w-100 h-464 object-fit-cover"
+    >
+
+    <!-- Content -->
+    <div class="card-body position-relative p-4">
+      <h3 class="h5 fw-semibold mb-2">
+        We aimed to deliver HQ templates for Figma
+      </h3>
+      <p class="text-white-50 small mb-0">
+        Used by 123 people
+      </p>
+    </div>
+  </div>
+</div>
+
+    <!-- CENTER TOP IMAGE -->
+    <div class="grid-item item-3">
+  <div class="card border-0 rounded-4 overflow-hidden position-relative">
+    <img src="img/man.png" alt="Man" class="man-img">
+    <div class="position-absolute bottom-0 start-50 translate-middle text-center">
+      <h3 class="text-white fw-bold">Consider it done!</h3>
+    </div>
+  </div>
+</div>
+
+    <!-- RIGHT TOP SMALL -->
+    <div class="grid-item item-4">
+        <div class="card bg-light border-0 rounded-4 h-100 d-flex align-items-center justify-content-center">
+            <img src="img/letter-a.png" alt="Letter A" class="img-fluid">
+        </div>
+    </div>
+
+    <!-- BLUE SHOE -->
+    <div class="grid-item item-5">
+        <div class="card bg-primary border-0 rounded-4 h-100 overflow-hidden">
+            <img src="img/blue.jpg" alt="Blue shoe" class="w-100 h-100 object-fit-cover">
+        </div>
+    </div>
+
+    <!-- BOTTOM LEFT - YELLOW BOOK -->
+    <div class="grid-item item-6">
+        <div class="card border-0 rounded-4 overflow-hidden">
+            <img src="img/yellow.png" alt="Book" class="object-fit-cover">
+        </div>
+    </div>
+
+    <!-- BOTTOM CENTER - WOMAN -->
+    <div class="grid-item item-7">
+        <div class="card border-0 rounded-4 overflow-hidden position-relative">
+            <img src="img/woman.png" alt="Woman" class="object-fit-cover">
+            <div class="position-absolute top-0 start-50 translate-middle-x w-100 p-4 text-center">
+                <h3 class=" text-white fw-bold">See my goal?</h3>
+            </div>
+        </div>
+    </div>
+
+    <!-- BOTTOM RIGHT - BUILDING -->
+    <div class="grid-item item-8">
+        <div class="card border-0 rounded-4 h-100 overflow-hidden">
+            <img src="img/window.png" alt="Building" class="w-100 h-100 object-fit-cover">
+        </div>
+    </div>
+
+    <!-- BUTTON -->
+    <div class="grid-item item-9">
+        <button class="btn btn-primary w-100 py-3 rounded-pill fw-semibold">
+            Learn more
+        </button>
+    </div>
+
+</div>
+        </section>
+
+        <!-- delivering good designs section -->
+        <section class="delivering-section py-5 bg-white" id="who">
+            <div class="container">
+                <h2 class="display-5 fw-bold mb-3">Delivering good designs since 1954 🚚💨</h2>
+                <p class="lead text-secondary mb-5">We're the first multi-purpose design kit solutions for businesses.
+                    We help you bridge gaps between your layouts, templates and developers to empower all involved.</p>
+
+                <!-- features grid -->
+                <div class="row g-4">
+                    <!-- support feature -->
+                    <div class="col-12 col-sm-6 col-lg-3">
+                        <div class="feature-card">
+                            <div class="feature-icon bg-pink rounded-circle mb-3">
+                                <svg width="24" height="24" fill="#ffeaa7" viewBox="0 0 24 24">
+                                    <path
+                                        d="M20 15.5c-1.25 0-2.45-.2-3.57-.57-.35-.11-.74-.03-1.02.24l-2.2 2.2c-2.83-1.44-5.15-3.75-6.59-6.59l2.2-2.21c.28-.26.36-.65.25-1C8.7 6.45 8.5 5.25 8.5 4c0-.55-.45-1-1-1H4c-.55 0-1 .45-1 1 0 9.39 7.61 17 17 17 .55 0 1-.45 1-1v-3.5c0-.55-.45-1-1-1z" />
+                                </svg>
+                            </div>
+                            <h3 class="h5 fw-bold mb-3">Support</h3>
+                            <p class="text-secondary mb-3">Delivering faster and more personalized support with shared
+                                screens and cool design systems for Figma</p>
+                            <a href="#" class="btn btn-outline-primary rounded-pill">Learn more</a>
+                        </div>
+                    </div>
+
+                    <!-- sales growth feature -->
+                    <div class="col-12 col-sm-6 col-lg-3">
+                        <div class="feature-card">
+                            <div class="feature-icon bg-blue rounded-circle mb-3">
+                                <svg width="24" height="24" fill="#ffeaa7" viewBox="0 0 24 24">
+                                    <path
+                                        d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8zm.5-13H11v6l5.25 3.15.75-1.23-4.5-2.67z" />
+                                </svg>
+                            </div>
+                            <h3 class="h5 fw-bold mb-3">Sales growth</h3>
+                            <p class="text-secondary mb-3">Identify qualified customers with easy-to-use live chat
+                                messaging and AI-based Sales Bot</p>
+                            <a href="#" class="btn btn-outline-primary rounded-pill">Learn more</a>
+                        </div>
+                    </div>
+
+                    <!-- components driven feature -->
+                    <div class="col-12 col-sm-6 col-lg-3">
+                        <div class="feature-card">
+                            <div class="feature-icon bg-purple rounded-circle mb-3">
+                                <svg width="24" height="24" fill="#ffeaa7" viewBox="0 0 24 24">
+                                    <path
+                                        d="M13 2.05v3.03c3.39.49 6 3.39 6 6.92 0 .9-.18 1.75-.48 2.54l2.6 1.53c.56-1.24.88-2.62.88-4.07 0-5.18-3.95-9.45-9-9.95zM12 19c-3.87 0-7-3.13-7-7 0-3.53 2.61-6.43 6-6.92V2.05c-5.06.5-9 4.76-9 9.95 0 5.52 4.47 10 9.99 10 3.31 0 6.24-1.61 8.06-4.09l-2.6-1.53C16.17 17.98 14.21 19 12 19z" />
+                                </svg>
+                            </div>
+                            <h3 class="h5 fw-bold mb-3">Coponents-driven</h3>
+                            <p class="text-secondary mb-3">Delivering faster and more personalized support with shared
+                                screens and cool design systems for Figma</p>
+                            <a href="#" class="btn btn-outline-primary rounded-pill">Learn more</a>
+                        </div>
+                    </div>
+
+                    <!-- swap icon feature -->
+                    <div class="col-12 col-sm-6 col-lg-3">
+                        <div class="feature-card">
+                            <div class="feature-icon bg-teal rounded-circle mb-3">
+                                <svg width="24" height="24" fill="#ffeaa7" viewBox="0 0 24 24">
+                                    <path
+                                        d="M1 21h4V9H1v12zm22-11c0-1.1-.9-2-2-2h-6.31l.95-4.57.03-.32c0-.41-.17-.79-.44-1.06L14.17 1 7.59 7.59C7.22 7.95 7 8.45 7 9v10c0 1.1.9 2 2 2h9c.83 0 1.54-.5 1.84-1.22l3.02-7.05c.09-.23.14-.47.14-.73v-2z" />
+                                </svg>
+                            </div>
+                            <h3 class="h5 fw-bold mb-3">Swap the icon</h3>
+                            <p class="text-secondary mb-3">You can toggle to any icon within Instances and customize
+                                outlined stroke to more bolder or lighter</p>
+                            <a href="#" class="btn btn-outline-primary rounded-pill">Learn more</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- affordable pricing section -->
+        <section class="pricing-section py-5 bg-light" id="what">
+            <div class="container">
+                <h2 class="text-center display-4 fw-bold mb-4">Affordable pricing</h2>
+
+                <!-- billing toggle -->
+                <div class="text-center mb-5">
+                    <span class="text-secondary me-2">Bill me</span>
+                    <span class="fw-bold text-primary">monthly</span>
+                    <span class="text-secondary mx-2">•</span>
+                    <span class="text-secondary">yearly</span>
+                </div>
+
+                <!-- pricing cards -->
+                <div class="row g-4">
+                    <!-- free plan -->
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card h-100 border-0 shadow-sm rounded-4 pricing-card">
+                            <div class="card-body p-4">
+                                <p class="text-primary mb-2 small fw-semibold">Free</p>
+                                <h3 class="display-4 fw-bold mb-1">Free</h3>
+                                <p class="text-secondary mb-4 small">/ FOREVER</p>
+
+                                <ul class="list-unstyled mb-4">
+                                    <li class="mb-3 d-flex align-items-start">
+                                        <span class="badge bg-light text-dark rounded-circle me-2 p-2">✓</span>
+                                        <span>Components-driven system</span>
+                                    </li>
+                                    <li class="mb-3 d-flex align-items-start">
+                                        <span class="badge bg-light text-dark rounded-circle me-2 p-2">✓</span>
+                                        <span>Sales-boosting landing pages</span>
+                                    </li>
+                                    <li class="mb-3 d-flex align-items-start">
+                                        <span class="badge bg-light text-dark rounded-circle me-2 p-2">✓</span>
+                                        <span>Awesome Feather icons pack</span>
+                                    </li>
+                                </ul>
+
+                                <button class="btn btn-outline-primary w-100 rounded-pill py-3">Try for free</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- individual plan -->
+                    <div class="col-12 col-md-6 col-lg-4">
+                        <div class="card h-100 border-0 shadow-lg rounded-4 pricing-card position-relative">
+                            <span
+                                class="badge bg-light text-dark position-absolute top-0 end-0 m-3 rounded-pill px-3 py-2">BEST!</span>
+                            <div class="card-body p-4">
+                                <p class="text-primary mb-2 small fw-semibold d-flex align-items-center">
+                                    <svg width="16" height="16" fill="currentColor" viewBox="0 0 16 16" class="me-1">
+                                        <path
+                                            d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10z" />
+                                    </svg>
+                                    Individual
+                                </p>
+                                <h3 class="display-4 fw-bold mb-1">$24</h3>
+                                <p class="text-secondary mb-4 small">/ MONTH</p>
+
+                                <ul class="list-unstyled mb-4">
+                                    <li class="mb-3 d-flex align-items-start">
+                                        <span class="badge bg-warning text-dark rounded-circle me-2 p-2">✓</span>
+                                        <span>Components-driven system</span>
+                                    </li>
+                                    <li class="mb-3 d-flex align-items-start">
+                                        <span class="badge bg-warning text-dark rounded-circle me-2 p-2">✓</span>
+                                        <span>Sales-boosting landing pages</span>
+                                    </li>
+                                    <li class="mb-3 d-flex align-items-start">
+                                        <span class="badge bg-warning text-dark rounded-circle me-2 p-2">✓</span>
+                                        <span>Awesome Feather icons pack</span>
+                                    </li>
+                                    <li class="mb-3 d-flex align-items-start">
+                                        <span class="badge bg-warning text-dark rounded-circle me-2 p-2">✓</span>
+                                        <span>Themed into 3 different styles</span>
+                                    </li>
+                                    <li class="mb-3 d-flex align-items-start">
+                                        <span class="badge bg-warning text-dark rounded-circle me-2 p-2">✓</span>
+                                        <span>Will help to learn Figma</span>
+                                    </li>
+                                </ul>
+
+                                <button class="btn btn-primary w-100 rounded-pill py-3">Regular license</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- corporate plan -->
+                    <div class="col-12 col-md-12 col-lg-4">
+                        <div class="card h-100 border-0 shadow-sm rounded-4 pricing-card">
+                            <div class="card-body p-4">
+                                <p class="text-primary mb-2 small fw-semibold d-flex align-items-center">
+                                    <svg width="16" height="16" fill="currentColor" viewBox="0 0 16 16" class="me-1">
+                                        <path
+                                            d="M15 14s1 0 1-1-1-4-5-4-5 3-5 4 1 1 1 1h8zm-7.978-1A.261.261 0 0 1 7 12.996c.001-.264.167-1.03.76-1.72C8.312 10.629 9.282 10 11 10c1.717 0 2.687.63 3.24 1.276.593.69.758 1.457.76 1.72l-.008.002a.274.274 0 0 1-.014.002H7.022zM11 7a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm3-2a3 3 0 1 1-6 0 3 3 0 0 1 6 0zM6.936 9.28a5.88 5.88 0 0 0-1.23-.247A7.35 7.35 0 0 0 5 9c-4 0-5 3-5 4 0 .667.333 1 1 1h4.216A2.238 2.238 0 0 1 5 13c0-1.01.377-2.042 1.09-2.904.243-.294.526-.569.846-.816zM4.92 10A5.493 5.493 0 0 0 4 13H1c0-.26.164-1.03.76-1.724.545-.636 1.492-1.256 3.16-1.275zM1.5 5.5a3 3 0 1 1 6 0 3 3 0 0 1-6 0zm3-2a2 2 0 1 0 0 4 2 2 0 0 0 0-4z" />
+                                    </svg>
+                                    Corporate
+                                </p>
+                                <h3 class="display-4 fw-bold mb-1">$12</h3>
+                                <p class="text-secondary mb-4 small">/ EDITOR</p>
+
+                                <ul class="list-unstyled mb-4">
+                                    <li class="mb-3 d-flex align-items-start">
+                                        <span
+                                            class="badge bg-success bg-opacity-25 text-success rounded-circle me-2 p-2">✓</span>
+                                        <span>Components-driven system</span>
+                                    </li>
+                                    <li class="mb-3 d-flex align-items-start">
+                                        <span
+                                            class="badge bg-success bg-opacity-25 text-success rounded-circle me-2 p-2">✓</span>
+                                        <span>Sales-boosting landing pages</span>
+                                    </li>
+                                    <li class="mb-3 d-flex align-items-start">
+                                        <span
+                                            class="badge bg-success bg-opacity-25 text-success rounded-circle me-2 p-2">✓</span>
+                                        <span>Awesome Feather icons pack</span>
+                                    </li>
+                                    <li class="mb-3 d-flex align-items-start">
+                                        <span
+                                            class="badge bg-success bg-opacity-25 text-success rounded-circle me-2 p-2">✓</span>
+                                        <span>Themed into 3 different styles</span>
+                                    </li>
+                                </ul>
+
+                                <button class="btn btn-outline-primary w-100 rounded-pill py-3">Extended
+                                    license</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- footer section with contact form -->
+    <footer class="footer-section py-5" id="contact">
+        <div class="container">
+            <div class="row g-5">
+                <!-- left side - social and links -->
+                <div class="col-12 col-md-6">
+                    <div class="row">
+                        <!-- social icons -->
+                        <div class="col-12 mb-4">
+                            <p class="text-secondary text-uppercase small mb-3">Follow us</p>
+                            <div class="d-flex gap-3">
+                                <a href="#" class="social-icon bg-warning bg-opacity-25">
+                                    <svg width="20" height="20" fill="#7c3aed" viewBox="0 0 24 24">
+                                        <path
+                                            d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z" />
+                                    </svg>
+                                </a>
+                                <a href="#" class="social-icon">
+                                    <svg width="20" height="20" fill="#7c3aed" viewBox="0 0 24 24">
+                                        <path
+                                            d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" />
+                                    </svg>
+                                </a>
+                                <a href="#" class="social-icon">
+                                    <svg width="20" height="20" fill="#7c3aed" viewBox="0 0 24 24">
+                                        <path
+                                            d="M12 0C5.373 0 0 5.373 0 12s5.373 12 12 12 12-5.373 12-12S18.627 0 12 0zm5.894 8.221l-1.97 9.28c-.145.658-.537.818-1.084.508l-3-2.21-1.446 1.394c-.14.18-.357.295-.6.295-.002 0-.003 0-.005 0l.213-3.054 5.56-5.022c.24-.213-.054-.334-.373-.121l-6.869 4.326-2.96-.924c-.64-.203-.658-.64.135-.954l11.566-4.458c.538-.196 1.006.128.832.941z" />
+                                    </svg>
+                                </a>
+                                <a href="#" class="social-icon">
+                                    <svg width="20" height="20" fill="#7c3aed" viewBox="0 0 24 24">
+                                        <path
+                                            d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z" />
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+
+                        <!-- information links -->
+                        <div class="col-12">
+                            <p class="text-secondary text-uppercase small mb-3">Information</p>
+                            <div class="row">
+                                <div class="col-6">
+                                    <ul class="list-unstyled">
+                                        <li class="mb-2"><a href="#" class="text-dark text-decoration-none">About Faster
+                                                app</a></li>
+                                        <li class="mb-2"><a href="#" class="text-dark text-decoration-none">Get in
+                                                Touch</a></li>
+                                        <li class="mb-2"><a href="#" class="text-dark text-decoration-none">Things We
+                                                Like</a></li>
+                                    </ul>
+                                </div>
+                                <div class="col-6">
+                                    <ul class="list-unstyled">
+                                        <li class="mb-2"><a href="#"
+                                                class="text-dark text-decoration-none text-decoration-underline">Onhovered
+                                                / Active</a></li>
+                                        <li class="mb-2"><a href="#" class="text-dark text-decoration-none">Privacy
+                                                Policy</a></li>
+                                        <li class="mb-2"><a href="#" class="text-dark text-decoration-none">Terms of
+                                                Service</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="row mt-3">
+                                <div class="col-6">
+                                    <ul class="list-unstyled">
+                                        <li class="mb-2"><a href="#" class="text-dark text-decoration-none">We are
+                                                hiring!</a></li>
+                                        <li class="mb-2"><a href="#"
+                                                class="text-dark text-decoration-none">Resources</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- right side - contact form -->
+                <div class="col-12 col-md-6">
+                    <p class="text-secondary text-uppercase small mb-3">Follow us</p>
+                    <h3 class="h4 fw-bold text-primary mb-4">hello@fasterapp.com</h3>
+
+                    <!-- contact form - hidden on mobile -->
+                    <div class="d-none d-md-block">
+                        <p class="text-secondary text-uppercase small mb-3">Keep in touch</p>
+                        <form>
+                            <div class="row g-3 mb-3">
+                                <div class="col-md-6">
+                                    <div class="input-group">
+                                        <input type="text" class="form-control py-3" placeholder="Your name">
+                                        <span class="input-group-text bg-white border-start-0">
+                                            <svg width="20" height="20" fill="#9ca3af" viewBox="0 0 24 24">
+                                                <path
+                                                    d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z" />
+                                            </svg>
+                                        </span>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="input-group">
+                                        <input type="email" class="form-control py-3" placeholder="E-mail">
+                                        <span class="input-group-text bg-white border-start-0">
+                                            <svg width="20" height="20" fill="#9ca3af" viewBox="0 0 24 24">
+                                                <path
+                                                    d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z" />
+                                            </svg>
+                                        </span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mb-3">
+                                <div class="input-group">
+                                    <textarea class="form-control py-3" rows="3"
+                                        placeholder="Leave your message"></textarea>
+                                    <span class="input-group-text bg-white border-start-0 align-items-start pt-3">
+                                        <svg width="20" height="20" fill="#7c3aed" viewBox="0 0 24 24">
+                                            <path
+                                                d="M3 17.25V21h3.75L17.81 9.94l-3.75-3.75L3 17.25zM20.71 7.04c.39-.39.39-1.02 0-1.41l-2.34-2.34c-.39-.39-1.02-.39-1.41 0l-1.83 1.83 3.75 3.75 1.83-1.83z" />
+                                        </svg>
+                                    </span>
+                                </div>
+                            </div>
+                            <button type="submit"
+                                class="btn btn-primary rounded-pill px-5 py-3 fw-semibold">SEND</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <!-- wavy bottom border -->
+            <div class="footer-wave mt-5"></div>
+        </div>
+    </footer>
+
+    <!-- bootstrap javascript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
